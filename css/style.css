@@ -86,22 +86,20 @@ nav {
   color: #521a5c;
 }
 
-@media screen and (max-width: 576px) {
-  .nav-btn {
-    width: 100%;
-    margin-top: 15px;
-  }
-}
 @media screen and (max-width: 776px) {
-  h1 {
-    font-size: 35px;
-  }
-
   #login .caption,
   #signup .caption {
     width: 100% !important;
   }
-  .caption h1 {
+  .caption h1,
+  .title h1 {
     font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav-btn {
+    width: 100%;
+    margin-top: 15px;
   }
 }
