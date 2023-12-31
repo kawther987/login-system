@@ -8,9 +8,11 @@ var logoutBtn = document.querySelector(".nav-btn");
 function sayWelcome() {
   var userNamee = localStorage.getItem("uName");
   if (userNamee) {
-    userName.innerHTML = `<h1 class="p-5">Welcome  ${userNamee}
+    userName.innerHTML = `<h1 >Welcome  ${userNamee}
     <i class="fa-regular fa-face-grin-beam ps-2"></i>
-    </h1>`;
+    </h1>
+    <p class="fs-3 pt-4">Let's Try <a href="./capatcha.html">Capatcha</a></p>
+`;
   }
 }
 function isLoginEmpty() {

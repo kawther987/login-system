@@ -76,9 +76,14 @@ nav {
   backdrop-filter: blur(8px);
   box-shadow: -5px 2px 54px -9px #2d392d;
 }
-h1 {
-  color: #521a5c;
+.title h1 {
   font-size: 60px;
+}
+
+.title h1,
+.title p,
+.title a {
+  color: #521a5c;
 }
 
 @media screen and (max-width: 576px) {
