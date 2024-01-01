@@ -3,7 +3,6 @@ var tryAgainBtn = document.getElementById("try");
 var checkBtn = document.getElementById("check");
 var input = document.getElementById("input");
 
-
 var correctAnswer = "";
 function generateCAPATCHA() {
   var result = "";
