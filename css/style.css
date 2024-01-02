@@ -88,8 +88,9 @@ nav {
 
 @media screen and (max-width: 776px) {
   #login .caption,
-  #signup .caption {
-    width: 100% !important;
+  #signup .caption,
+  header .title {
+    width: 95% !important;
   }
   .caption h1,
   .title h1 {
