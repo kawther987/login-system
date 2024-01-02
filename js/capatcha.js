@@ -86,8 +86,9 @@ function checkAnswer() {
   }
 }
 
-tryAgainBtn.onclick = generateCAPATCHA;
-checkBtn.onclick = checkAnswer;
+tryAgainBtn.addEventListener("click", generateCAPATCHA);
+checkBtn.addEventListener("click", checkAnswer);
+
 
 function tryAgain() {
   Swal.fire({

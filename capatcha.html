@@ -9,6 +9,11 @@
       href="./img/pink-cosmos.png"
       type="image/x-icon"
     />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- fontawesome file -->
     <link rel="stylesheet" href="./css/all.min.css" />
@@ -18,13 +23,42 @@
     <link rel="stylesheet" href="./css/capatcha.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-success" href="./index.html"
+          >SMART LOGIN
+        </a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars text-success fs-4"> </i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <a
+            href="./index.html"
+            id="btn"
+            class="nav-btn btn btn-outline-success ms-auto"
+          >
+            Logout
+          </a>
+        </div>
+      </div>
+    </nav>
     <section
       class="wrapper min-vh-100 d-flex justify-content-center align-items-center"
     >
       <div
         class="box w-50 rounded-4 p-3 py-5 d-flex flex-column gap-3 justify-content-center align-items-center"
       >
-        <h2 class="text-uppercase text-main fw-bold">Capatcha Generator</h2>
+        <h2 class="text-uppercase text-main fw-bold text-center">
+          Capatcha Generator
+        </h2>
         <div class="d-flex gap-2 w-75 mx-auto">
           <div class="capatcha-box w-100 position-relative">
             <img

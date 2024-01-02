@@ -53,6 +53,7 @@ input {
 }
 .box h2 {
   letter-spacing: 5px;
+  font-family: "Rubik Bubbles";
 }
 
 .capatcha-text {
@@ -64,6 +65,14 @@ input {
   letter-spacing: 20px;
 }
 
+nav {
+  backdrop-filter: blur(8px);
+  box-shadow: -5px 2px 54px -9px #2d392d inset;
+  font-family: "Rubik Bubbles";
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
 @media screen and (max-width: 786px) {
   .box {
     width: 80% !important;
@@ -75,5 +84,9 @@ input {
 @media screen and (max-width: 576px) {
   .box {
     width: 95% !important;
+  }
+  .nav-btn {
+    width: 100%;
+    margin-top: 15px;
   }
 }
